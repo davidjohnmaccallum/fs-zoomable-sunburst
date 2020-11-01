@@ -1,0 +1,27 @@
+{
+  "name": "fs-zoomable-sunburst",
+  "version": "1.0.0",
+  "description": "Generates a Zoomable Suburst from a code base.",
+  "main": "index.js",
+  "bin": {
+    "fs-flare": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Data Visualization",
+    "Data Analysis",
+    "Sunburst"
+  ],
+  "author": "David MacCallum <davidjohnmac@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "7.12.1",
+    "eslint-plugin-jest": "24.1.0",
+    "jest": "26.6.1"
+  },
+  "dependencies": {
+    "ignore": "5.1.8"
+  }
+}
