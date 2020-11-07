@@ -1,13 +1,17 @@
 {
   "name": "fs-zoomable-sunburst",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generates a Zoomable Suburst from a code base.",
   "main": "index.js",
   "bin": {
-    "fs-flare": "./index.js"
+    "fs-zoomable-sunburst": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidjohnmaccallum/fs-zoomable-sunburst"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "Data Visualization",
