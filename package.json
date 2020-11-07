@@ -4,7 +4,8 @@
   "description": "Generates a Zoomable Suburst from a code base.",
   "main": "index.js",
   "bin": {
-    "fs-zoomable-sunburst": "./index.js"
+    "fs-flare": "./fs-flare.js",
+    "php-flare": "./php-flare.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,9 @@
     "jest": "26.6.1"
   },
   "dependencies": {
-    "ignore": "5.1.8"
+    "glob": "7.1.6",
+    "ignore": "5.1.8",
+    "lodash": "4.17.20",
+    "strip-comments": "2.0.1"
   }
 }

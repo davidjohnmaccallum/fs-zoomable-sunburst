@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-const fsFlare = require('./lib/fs-flare')
+
+const fsFlare = require('../lib/fs-flare')
 const fs = require('fs')
 
 const [,,path = process.cwd()] = process.argv
